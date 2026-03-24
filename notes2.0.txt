@@ -1,0 +1,93 @@
+Day 2 – Async/Await & Error Handling
+
+Topics: Async/Await, Try...Catch
+Practice:
+
+Rewrite yesterday’s Promise code using async/await.
+
+Add error handling with try...catch.
+
+Chain two async functions (fetch user → fetch posts).
+Interview Qs:
+
+How does async/await simplify Promises?
+
+Can you use await outside async function?
+
+Day 3 – Fetch API & RESTful APIs
+
+Topics: Fetch, JSON, API basics
+Practice:
+
+Fetch posts from https://jsonplaceholder.typicode.com/posts.
+
+Display only first 5 results in console.
+
+Store response in localStorage.
+Interview Qs:
+
+Difference between fetch & XMLHttpRequest?
+
+How do you handle failed API requests?
+
+Day 4 – Closures & Lexical Scope
+
+Topics: Closures, Scope chain
+Practice:
+
+Write a closure that remembers a counter (increment()).
+
+Create a function inside another to demonstrate lexical scope.
+Interview Qs:
+
+How do closures work?
+
+Real-time use case of closures (e.g., private variables).
+
+Day 5 – this Keyword
+
+Topics: this in functions, objects, arrow functions, event listeners
+Practice:
+
+Show how this behaves in:
+
+Global function
+
+Object method
+
+Arrow function
+
+Event listener
+Interview Qs:
+
+Difference between this in arrow vs normal function?
+
+What is this in strict mode?
+
+Day 6 – Prototypal Inheritance
+
+Topics: Prototype, Inheritance
+Practice:
+
+Create a Person constructor → extend it to Student → extend to Engineer.
+
+Add methods at each level and access them.
+Interview Qs:
+
+Difference between classical & prototypal inheritance?
+
+How does Object.create() work?
+
+Day 7 – Event Delegation + Mini Project
+
+Topics: Event Delegation, Putting it all together
+Practice:
+
+Create a <ul> with multiple <li> and handle clicks using delegation.
+
+Mini project: Fetch random users (https://randomuser.me/api), display names in list, and allow click to show details.
+Interview Qs:
+
+What is event bubbling & capturing?
+
+Why is event delegation efficient?

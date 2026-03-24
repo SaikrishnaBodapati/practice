@@ -1,0 +1,148 @@
+ROUND 1 — JDBC (Core + Real-world usage)
+Q1.
+
+What is JDBC, and where exactly have you used it in your project?
+👉 Don’t give definition only. Mention why JDBC instead of ORM in that place.
+
+Q2.
+
+Explain the steps to connect Java application to database using JDBC.
+Then answer this follow-up immediately:
+
+Where does most production code go wrong in these steps?
+
+Q3.
+
+Difference between Statement, PreparedStatement, and CallableStatement.
+Now the trap question:
+
+If PreparedStatement is better, why does Statement even exist?
+
+Q4.
+
+How do you prevent SQL Injection in JDBC?
+If your answer is only “PreparedStatement”, you’re missing depth.
+
+Q5.
+
+Explain JDBC connection pooling.
+Follow-up (important for 2 years experience):
+
+What happens if you don’t use connection pooling in a high-traffic application?
+
+🔹 ROUND 2 — JSP (Don’t embarrass yourself here)
+Q6.
+
+What is JSP and how is it different from Servlet?
+Answer in one paragraph, not bullets.
+
+Q7.
+
+What happens internally when a JSP is executed for the first time?
+If you don’t mention Servlet generation, you don’t understand JSP.
+
+Q8.
+
+What are JSP implicit objects? Name at least 5 and explain 2.
+
+Trap follow-up:
+
+Why is heavy business logic inside JSP considered a bad practice?
+
+Q9.
+
+Difference between <%@ include %> and <jsp:include>
+Real-world follow-up:
+
+When would you choose one over the other in a production app?
+
+🔹 ROUND 3 — Servlets (This decides your backend credibility)
+Q10.
+
+Explain Servlet lifecycle methods.
+Then answer this:
+
+Which method is called only once and why is that important?
+
+Q11.
+
+Difference between doGet() and doPost()
+Don’t stop there:
+
+Why should passwords never be sent using GET?
+
+Q12.
+
+What is the difference between forward() and sendRedirect()?
+Trap follow-up:
+
+Which one causes a new request and why does that matter?
+
+Q13.
+
+How do Servlets manage sessions?
+Name all session tracking techniques you know.
+
+Q14.
+
+What is a Filter in Servlet?
+Follow-up (real interview favorite):
+
+Give one real use case where you implemented or would implement a filter.
+
+🔹 ROUND 4 — Hibernate (Expected from 2-year dev)
+Q15.
+
+What is Hibernate and why do we use it over JDBC?
+If you say “reduces code”, that’s weak—explain how.
+
+Q16.
+
+Difference between Session, SessionFactory, and Configuration.
+Quick follow-up:
+
+Which one is heavyweight and which one is thread-safe?
+
+Q17.
+
+What are Hibernate entity states?
+Explain with example:
+
+Transient
+
+Persistent
+
+Detached
+
+Q18.
+
+Difference between save(), persist(), saveOrUpdate(), and merge()
+This is a filter question—many candidates fail here.
+
+Q19.
+
+What is lazy loading?
+Trap follow-up:
+
+What is LazyInitializationException and when does it occur?
+
+Q20.
+
+Explain first-level cache and second-level cache in Hibernate.
+If you can’t explain caching, you’re not production-ready.
+
+🔹 FINAL ROUND — Scenario (Most important)
+Q21.
+
+You have a JSP → Servlet → Hibernate → DB flow.
+User submits a form, data must be saved, and response shown.
+
+Explain:
+
+Request flow
+
+Where validation happens
+
+Where transaction is handled
+
+Where business logic must NOT be written
